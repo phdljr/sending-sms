@@ -39,7 +39,7 @@ class ContactAdapter(
             item.isSelected = checked
         }
 
-        // ⭐ 아이템 전체 클릭 → 토글
+        // 아이템 전체 클릭 -> 토글
         holder.container.setOnClickListener {
             item.isSelected = !item.isSelected
             notifyItemChanged(position)
